@@ -1,7 +1,7 @@
 {
     "name": "dx-electron",
     "version": "1.0.0",
-    "description": "",
+    "description": "This is a test repo for electron",
     "main": "main.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
@@ -12,7 +12,8 @@
     "license": "MIT",
     "devDependencies": {
         "electron": "^22.0.0",
-        "electron-builder": "^22.10.3"
+        "electron-builder": "^22.10.3",
+        "electron-reload": "^2.0.0-alpha.1"
     },
     "dependencies": {
         "electron-squirrel-startup": "^1.0.0"
@@ -21,9 +22,6 @@
         "appId": "com.unclair.hdx",
         "productName": "Electron Test App",
         "target": "NSIS",
-        "directory": {
-            "output": "build"
-        },
         "nsis": {
             "allowToChangeInstallationDirectory": true,
             "oneClick": false
